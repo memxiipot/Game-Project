@@ -1,0 +1,129 @@
+﻿body 
+{
+    background: url('94secondspic.jpg') no-repeat;
+}
+
+table 
+{
+    margin: 50 0 50 0;
+}
+
+.tick 
+{
+    font-size: xx-large;
+    color: gold;
+}
+
+.wrapper{
+	text-align:center;
+	background-position:center:100px;
+}
+
+.button1{
+	background-color: #b6e51b;
+    color: White;
+    height: 80px;
+	width: 300px;	
+	font-size:xx-large;
+	border-radius: 10px;
+}
+
+.button2{
+	background-color: #1fd3f8;
+    color: White;
+    height: 80px;
+	width: 300px;
+	font-size:xx-large;
+	border-radius: 10px;
+}
+
+.button3{
+	background-color: #fdd01b;
+    color: White;
+    height: 80px;
+	width: 300px;
+	font-size:xx-large;
+    border-radius: 10px;
+}
+
+.button4{
+	background-color: #fe7d18;
+    color: White;
+    height: 80px;
+	width: 300px;
+	font-size:xx-large;
+    border-radius: 10px;
+}
+
+.text 
+{
+    height: 30px;
+    width: 345px;
+    font-size: x-large;
+    border: 1px solid #B9BDC1;
+    color: #797979;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #BBB inset;
+    box-shadow: 0 2px 4px #BBB inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.text:focus {
+    background-color: #E7E8E7;
+    outline: 0;
+}
+
+.button5
+{
+    background-color: #bae301;
+    color: White;
+	font-size: x-large;
+    border-radius: 5px;
+}
+
+.back
+{
+    background-color: #bae301;
+    color: White;
+	font-size: x-large;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.font1
+{
+    color: #6e6e6e;
+	font-size: x-large;
+	font-family: Arial;
+}
+
+.font2
+{
+    color: #27d0fb;
+	font-size: xx-large;
+	font-family: Arial;
+}
+
+.query 
+{
+    background: url('bg.png'); 
+    border: 1px solid #999; 
+    outline:0; 
+    height: 150px; 
+    width: 450px; 
+    margin-bottom: 50px;
+}
+
+.result{
+	background-color: #fe7d18;
+    color: White;
+    height: 80px;
+	width: 300px;
+	font-size:xx-large;
+    border-radius: 10px;
+}
+

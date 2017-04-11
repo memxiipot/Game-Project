@@ -1,0 +1,49 @@
+﻿<html>
+<head>
+    <title>94 Seconds</title>
+    <script src="Game.js"></script>
+    <link rel="stylesheet" type="text/css" href ="style.css">
+    <link rel="image_src" href="pic.jpg">
+</head>
+
+<body onload="GetRandomQuestion();">
+    <div class="wrapper">
+    <center>
+        <table>
+            <tr>
+            <td><a href="default.html"><button class="back"><img src="arrow.gif" />BACK</button></a></td>
+            <td><img src="hourglass.gif" class="tick"></td>
+            <td><div id="timer" class="tick">94</div></td>
+            </tr>
+        </table>
+
+        <div class = "query">
+            <table>
+                <tr>
+                <td><div id="Questions"  class="font1"></div></td>
+                <td class="font2">|</td>
+                <td><div id="Letter"  class="font2"></div></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="validate">
+	        <input type="text" id="ans" class="text">
+            <button id ="button1" class="button5" onClick="Validate(); GetRandomQuestion();">Validate</button>
+        </div>
+
+        <div class="score">
+        <table>
+            <tr>
+            <td><div id="divScore" class="font2">Score: </div></td>
+	        <td><div id="totalScore" class="font2">0</div></td>
+            </tr>
+        </table>
+        </div>
+
+        </center>
+
+    </div>
+</body>
+
+</html>
